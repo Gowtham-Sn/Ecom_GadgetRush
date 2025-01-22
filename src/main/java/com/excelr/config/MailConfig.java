@@ -13,8 +13,8 @@ public class MailConfig {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
-        mailSender.setUsername("gadgetrush.notify@gmail.com");
-        mailSender.setPassword("bzglftgfdvfludkd");
+        mailSender.setUsername("Mail");
+        mailSender.setPassword("Pass");
         
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.smtp.auth", "true");
